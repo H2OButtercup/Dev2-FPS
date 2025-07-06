@@ -1,10 +1,12 @@
 using UnityEngine;
+using System.Collections;
 
-public class playerController : MonoBehaviour
+public class playerController : MonoBehaviour, IDamage
 {
     [SerializeField] CharacterController controller;
     [SerializeField] LayerMask ignoreLayer;
 
+    [SerializeField] int HP;
     [SerializeField] int speed;
     [SerializeField] int sprintMod;
     [SerializeField] int jumpVel;
@@ -19,13 +21,15 @@ public class playerController : MonoBehaviour
     Vector3 playerVel;
 
     int jumpCount;
+    int hpOrig;
 
     float shootTimer;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        hpOrig = HP;
+        updatePlayerUI();
     }
 
     // Update is called once per frame
@@ -42,7 +46,7 @@ public class playerController : MonoBehaviour
     {
         shootTimer += Time.deltaTime;
 
-        if(controller.isGrounded)
+        if (controller.isGrounded)
         {
             playerVel = Vector3.zero;
             jumpCount = 0;
@@ -56,7 +60,7 @@ public class playerController : MonoBehaviour
         controller.Move(playerVel * Time.deltaTime);
         playerVel.y -= gravity * Time.deltaTime;
 
-        if(Input.GetButton("Fire1") && shootTimer > shootRate)
+        if (Input.GetButton("Fire1") && shootTimer > shootRate)
         {
             shoot();
         }
@@ -98,5 +102,31 @@ public class playerController : MonoBehaviour
                 dmg.takeDamage(shootDamage);
             }
         }
+    }
+
+    public void takeDamage(int amount)
+    {
+        HP -= amount;
+
+        updatePlayerUI();
+        StartCoroutine(damageFlashScreen());
+
+        if (HP <= 0)
+        {
+            //you died
+            gamemanager.instance.youLose();
+        }
+    }
+
+    public void updatePlayerUI()
+    {
+        gamemanager.instance.playerHPBar.fillAmount = (float)HP / hpOrig;
+    }
+
+    IEnumerator damageFlashScreen()
+    {
+        gamemanager.instance.playerDamagePanel.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+        gamemanager.instance.playerDamagePanel.SetActive(false);
     }
 }
