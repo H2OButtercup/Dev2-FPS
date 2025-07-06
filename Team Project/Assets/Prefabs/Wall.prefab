@@ -1,10 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<< Updated upstream:Team Project/Assets/Prefabs/Wall.prefab
---- !u!1 &4548188660756364277
-=======
---- !u!1 &6459861777668243659
->>>>>>> Stashed changes:Team Project/Team Project/Assets/Prefabs/Wall.prefab
+--- !u!1 &4900960881261329180
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12,17 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream:Team Project/Assets/Prefabs/Wall.prefab
-  - component: {fileID: 8410415929118234504}
-  - component: {fileID: 6951524795625951505}
-  - component: {fileID: 4648294139500923947}
-  - component: {fileID: 4797117944152496704}
-=======
-  - component: {fileID: 8284173499503291449}
-  - component: {fileID: 7928209700695765476}
-  - component: {fileID: 7648878391576250310}
-  - component: {fileID: 9153584813713950519}
->>>>>>> Stashed changes:Team Project/Team Project/Assets/Prefabs/Wall.prefab
+  - component: {fileID: 8412691099886565217}
+  - component: {fileID: 8944599909513276665}
+  - component: {fileID: 2538939659645842450}
+  - component: {fileID: 6293721693003339007}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -30,62 +19,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< Updated upstream:Team Project/Assets/Prefabs/Wall.prefab
---- !u!4 &8410415929118234504
-=======
---- !u!4 &8284173499503291449
->>>>>>> Stashed changes:Team Project/Team Project/Assets/Prefabs/Wall.prefab
+--- !u!4 &8412691099886565217
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Team Project/Assets/Prefabs/Wall.prefab
-  m_GameObject: {fileID: 4548188660756364277}
+  m_GameObject: {fileID: 4900960881261329180}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 9.631599, y: 3.75, z: -5.5481873}
-=======
-  m_GameObject: {fileID: 6459861777668243659}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
-  m_LocalPosition: {x: 209.53467, y: 3.75, z: -4532.1377}
->>>>>>> Stashed changes:Team Project/Team Project/Assets/Prefabs/Wall.prefab
-  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream:Team Project/Assets/Prefabs/Wall.prefab
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!33 &6951524795625951505
-=======
-  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!33 &7928209700695765476
->>>>>>> Stashed changes:Team Project/Team Project/Assets/Prefabs/Wall.prefab
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8944599909513276665
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Team Project/Assets/Prefabs/Wall.prefab
-  m_GameObject: {fileID: 4548188660756364277}
+  m_GameObject: {fileID: 4900960881261329180}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &4648294139500923947
-=======
-  m_GameObject: {fileID: 6459861777668243659}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &7648878391576250310
->>>>>>> Stashed changes:Team Project/Team Project/Assets/Prefabs/Wall.prefab
+--- !u!23 &2538939659645842450
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Team Project/Assets/Prefabs/Wall.prefab
-  m_GameObject: {fileID: 4548188660756364277}
-=======
-  m_GameObject: {fileID: 6459861777668243659}
->>>>>>> Stashed changes:Team Project/Team Project/Assets/Prefabs/Wall.prefab
+  m_GameObject: {fileID: 4900960881261329180}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -102,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  - {fileID: 2100000, guid: f8a3424211708b24ca83ab0fab37abad, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -124,21 +87,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< Updated upstream:Team Project/Assets/Prefabs/Wall.prefab
---- !u!65 &4797117944152496704
-=======
---- !u!65 &9153584813713950519
->>>>>>> Stashed changes:Team Project/Team Project/Assets/Prefabs/Wall.prefab
+--- !u!65 &6293721693003339007
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Team Project/Assets/Prefabs/Wall.prefab
-  m_GameObject: {fileID: 4548188660756364277}
-=======
-  m_GameObject: {fileID: 6459861777668243659}
->>>>>>> Stashed changes:Team Project/Team Project/Assets/Prefabs/Wall.prefab
+  m_GameObject: {fileID: 4900960881261329180}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
