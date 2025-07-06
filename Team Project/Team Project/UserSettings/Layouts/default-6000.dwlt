@@ -221,8 +221,8 @@ MonoBehaviour:
     y: 0
     width: 577
     height: 1341
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -439,8 +439,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1207
-    y: 79
+    x: 1208
+    y: 24
     width: 407
     height: 1315
   m_SerializedDataModeController:
@@ -457,7 +457,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: bebd0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 3ca6ffff50a6ffff3acaffffd8cbffff22ccffff12e3ffff34c20000
       m_RenameOverlay:
@@ -505,8 +505,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1983
-    y: 79
+    x: 1984
+    y: 24
     width: 576
     height: 1315
   m_SerializedDataModeController:
@@ -554,8 +554,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1616
-    y: 79
+    x: 1617
+    y: 24
     width: 365
     height: 1315
   m_SerializedDataModeController:
@@ -598,7 +598,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b0230000
     m_LastClickedID: 9136
-    m_ExpandedIDs: 0000000022bd000024bd000026bd000028bd00002abd00002cbd0000
+    m_ExpandedIDs: 0000000060fc000062fc000064fc000066fc000068fc00006afc00006cfc00006efc000070fc000072fc0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -627,21 +627,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000022bd000024bd000026bd000028bd00002abd00002cbd0000d4bd0000a6cb0000accb0000aecb0000
+    m_ExpandedIDs: 0000000060fc000062fc000064fc000066fc000068fc00006afc00006cfc00006efc000070fc000072fc0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Mat_SkinnyOrk6_Body_Skin1
-      m_OriginalName: Mat_SkinnyOrk6_Body_Skin1
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 46978
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 8}
@@ -707,7 +707,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 768
+    y: 713
     width: 1206
     height: 626
   m_SerializedDataModeController:
@@ -808,7 +808,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 1206
     height: 663
   m_SerializedDataModeController:
@@ -1373,11 +1373,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.0025154613, y: -0.9970241, z: -0.038598984, w: -0.066166125}
     speed: 2
-    m_Value: {x: 0.0025734454, y: -0.996958, z: -0.038596496, w: -0.06766391}
+    m_Value: {x: -0.0025154613, y: 0.9970242, z: 0.038598984, w: 0.066166125}
   m_Size:
     m_Target: 101.62315
     speed: 2
-    m_Value: 97.24704
+    m_Value: 101.62315
   m_Ortho:
     m_Target: 0
     speed: 2

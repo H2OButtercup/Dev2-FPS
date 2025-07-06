@@ -1,5 +1,7 @@
+using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class gameManager : MonoBehaviour
 {
@@ -20,8 +22,15 @@ public class gameManager : MonoBehaviour
 
     int gameGoalCount;
 
+    // Spawn point for the player
     public Transform playerSpawnPoint;
     public GameObject playerPrefab;
+
+
+    // Randomized spawn for the enemy
+    public GameObject enemyPrefab;
+    public int numberOfEnemiesToSpawn = 5;
+    public List<Transform> enemySpawnPoints;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -29,7 +38,7 @@ public class gameManager : MonoBehaviour
         instance = this;
 
         player = GameObject.FindWithTag("Player");
-        if(playerPrefab == null)
+        if(player == null)
         {
             if(playerPrefab != null && playerSpawnPoint != null)
             {
@@ -42,6 +51,11 @@ public class gameManager : MonoBehaviour
             playerScript = player.GetComponent<playerController>();
             timeScaleOrig = Time.timeScale;
         }
+    }
+
+    private void Start()
+    {
+        SpawnEnemies();
     }
 
     // Update is called once per frame
@@ -60,6 +74,33 @@ public class gameManager : MonoBehaviour
                 stateUnpause();
             }
         }
+    }
+
+    void SpawnEnemies()
+    {
+        if (enemyPrefab == null)
+        {
+            return;
+        }
+
+        if (enemySpawnPoints == null || enemySpawnPoints.Count == 0)
+        {
+            return;
+        }
+
+        List<Transform> availableSpawnPoints = new List<Transform>(enemySpawnPoints);
+
+        for (int i = 0; i < numberOfEnemiesToSpawn; i++)
+        {
+            availableSpawnPoints = new List<Transform>(enemySpawnPoints);
+        }
+
+        int randomIndex = Random.Range(0, availableSpawnPoints.Count);
+        Transform spawnLocation = availableSpawnPoints[randomIndex];
+
+        GameObject spawnedEnemy = Instantiate(enemyPrefab, spawnLocation.position, spawnLocation.rotation);
+
+        availableSpawnPoints.RemoveAt(randomIndex);
     }
 
     public void statePause()
