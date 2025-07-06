@@ -19,26 +19,6 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.2d.tilemap@1.0.0": {
-      "name": "com.unity.2d.tilemap",
-      "displayName": "2D Tilemap Editor",
-      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.2d.tilemap@089d78c497f7",
-      "fingerprint": "089d78c497f71ceb4da57790ae3ffeb30b691411",
-      "editorCompatibility": "2019.2.0a1",
-      "version": "1.0.0",
-      "source": "builtin",
-      "testable": false
-    },
-    "com.unity.ads@4.4.2": {
-      "name": "com.unity.ads",
-      "displayName": "Advertisement Legacy",
-      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ads@a7b997f68a1d",
-      "fingerprint": "a7b997f68a1d40387ca4d33fc75578709c140a37",
-      "editorCompatibility": "2018.4.18f1",
-      "version": "4.4.2",
-      "source": "registry",
-      "testable": false
-    },
     "com.unity.ai.navigation@2.0.8": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
@@ -46,16 +26,6 @@
       "fingerprint": "eb5635ad590d47cef2a5c920d9475cc222db3f67",
       "editorCompatibility": "6000.0.0a1",
       "version": "2.0.8",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.analytics@3.8.1": {
-      "name": "com.unity.analytics",
-      "displayName": "Analytics Library",
-      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.analytics@6cc66d58ac08",
-      "fingerprint": "6cc66d58ac08950316d3b86a26c92187aca1ddb0",
-      "editorCompatibility": "2019.3.0a1",
-      "version": "3.8.1",
       "source": "registry",
       "testable": false
     },
@@ -89,6 +59,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.inputsystem@1.14.0": {
+      "name": "com.unity.inputsystem",
+      "displayName": "Input System",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7",
+      "fingerprint": "7fe8299111a78212d8968229ab41a82e4991ba25",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.14.0",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
@@ -99,14 +79,14 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.purchasing@4.12.2": {
-      "name": "com.unity.purchasing",
-      "displayName": "In App Purchasing",
-      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.purchasing@649c6c7b3b1b",
-      "fingerprint": "649c6c7b3b1b6277839041f4987c0a1e66176678",
-      "editorCompatibility": "2020.3.0a1",
-      "version": "4.12.2",
-      "source": "registry",
+    "com.unity.render-pipelines.universal@17.1.0": {
+      "name": "com.unity.render-pipelines.universal",
+      "displayName": "Universal Render Pipeline",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8",
+      "fingerprint": "2b88762731f8352032155be30e37d468ef710c87",
+      "editorCompatibility": "6000.1.0a1",
+      "version": "17.1.0",
+      "source": "builtin",
       "testable": false
     },
     "com.unity.test-framework@1.5.1": {
@@ -119,13 +99,13 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.timeline@1.8.7": {
+    "com.unity.timeline@1.8.8": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.timeline@c58b4ee65782",
-      "fingerprint": "c58b4ee65782ad38338e29f7ee67787cb6998f04",
-      "editorCompatibility": "2019.3.0a1",
-      "version": "1.8.7",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.timeline@fa3a0bab2b90",
+      "fingerprint": "fa3a0bab2b909389f8e6c20d5ff275c9e15ae0a2",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.8.8",
       "source": "registry",
       "testable": false
     },
@@ -139,13 +119,23 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.xr.legacyinputhelpers@2.1.12": {
-      "name": "com.unity.xr.legacyinputhelpers",
-      "displayName": "XR Legacy Input Helpers",
-      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers@b7579e86f3b4",
-      "fingerprint": "b7579e86f3b456c909fda6b875fba7ab1eeb1322",
-      "editorCompatibility": "2019.4.0a1",
-      "version": "2.1.12",
+    "com.unity.visualeffectgraph@17.1.0": {
+      "name": "com.unity.visualeffectgraph",
+      "displayName": "Visual Effect Graph",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.visualeffectgraph@40f2662747ce",
+      "fingerprint": "40f2662747ce8da33f5503683e55c4e3f2bdd4ee",
+      "editorCompatibility": "6000.1.0a1",
+      "version": "17.1.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.visualscripting@1.9.8": {
+      "name": "com.unity.visualscripting",
+      "displayName": "Visual Scripting",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.visualscripting@b4d700247d4b",
+      "fingerprint": "b4d700247d4b84b3360e1afeb054b0bdb201fbc7",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.9.8",
       "source": "registry",
       "testable": false
     },
@@ -421,6 +411,26 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.shadergraph@17.1.0": {
+      "name": "com.unity.shadergraph",
+      "displayName": "Shader Graph",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.shadergraph@e5d3455aa133",
+      "fingerprint": "e5d3455aa13376f767ad6bf5f3faab2073877176",
+      "editorCompatibility": "6000.1.0a1",
+      "version": "17.1.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.render-pipelines.core@17.1.0": {
+      "name": "com.unity.render-pipelines.core",
+      "displayName": "Scriptable Render Pipeline Core",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.core@90203779d2fe",
+      "fingerprint": "90203779d2fe6fa9d55aca9d46d9e8633cba3dc2",
+      "editorCompatibility": "6000.1.0a1",
+      "version": "17.1.0",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
@@ -431,33 +441,83 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.services.core@1.14.0": {
-      "name": "com.unity.services.core",
-      "displayName": "Services Core",
-      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.services.core@9e81a5e38245",
-      "fingerprint": "9e81a5e382457b799480b311ce51187be99abbbf",
+    "com.unity.render-pipelines.universal-config@17.0.3": {
+      "name": "com.unity.render-pipelines.universal-config",
+      "displayName": "Universal Render Pipeline Config",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
+      "fingerprint": "8dc1aab4af1d718781689a36ed5231a35ad1a524",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.burst@1.8.23": {
+      "name": "com.unity.burst",
+      "displayName": "Burst",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.burst@6aff1dd08a0c",
+      "fingerprint": "6aff1dd08a0c2f92ddb7f56ec033a5cb88967056",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.14.0",
+      "version": "1.8.23",
       "source": "registry",
       "testable": false
     },
-    "com.unity.services.analytics@6.0.2": {
-      "name": "com.unity.services.analytics",
-      "displayName": "Analytics",
-      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.services.analytics@6629cba2f5e7",
-      "fingerprint": "6629cba2f5e7ff255833c417c8610bd06c505241",
+    "com.unity.mathematics@1.3.2": {
+      "name": "com.unity.mathematics",
+      "displayName": "Mathematics",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
+      "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
       "editorCompatibility": "2021.3.0a1",
-      "version": "6.0.2",
+      "version": "1.3.2",
       "source": "registry",
       "testable": false
     },
-    "com.unity.nuget.newtonsoft-json@3.2.1": {
-      "name": "com.unity.nuget.newtonsoft-json",
-      "displayName": "Newtonsoft Json",
-      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@74deb55db2a0",
-      "fingerprint": "74deb55db2a0c29ddfda576608bcb86abbd13ee6",
+    "com.unity.collections@2.5.1": {
+      "name": "com.unity.collections",
+      "displayName": "Collections",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.collections@56bff8827a7e",
+      "fingerprint": "56bff8827a7ef6d44fcee4f36e558a74da89c1a0",
+      "editorCompatibility": "2022.3.11f1",
+      "version": "2.5.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.rendering.light-transport@1.0.1": {
+      "name": "com.unity.rendering.light-transport",
+      "displayName": "Unity Light Transport Library",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.rendering.light-transport@e647573c7d2a",
+      "fingerprint": "e647573c7d2ae78386ecb3f9f962738597f13fcf",
+      "editorCompatibility": "2023.3.0b1",
+      "version": "1.0.1",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.searcher@4.9.3": {
+      "name": "com.unity.searcher",
+      "displayName": "Searcher",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.searcher@1e17ce91558d",
+      "fingerprint": "1e17ce91558d1d9127554adc03d275f39a7466a2",
+      "editorCompatibility": "2019.1.0a1",
+      "version": "4.9.3",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.nuget.mono-cecil@1.11.4": {
+      "name": "com.unity.nuget.mono-cecil",
+      "displayName": "Mono Cecil",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d6f9955a5d5f",
+      "fingerprint": "d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62",
       "editorCompatibility": "2018.4.0a1",
-      "version": "3.2.1",
+      "version": "1.11.4",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.test-framework.performance@3.1.0": {
+      "name": "com.unity.test-framework.performance",
+      "displayName": "Performance testing API",
+      "resolvedPath": "F:\\FS\\P&P2\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.test-framework.performance@92d1d09a72ed",
+      "fingerprint": "92d1d09a72ed696fa23fd76c675b29d211664b50",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "3.1.0",
       "source": "registry",
       "testable": false
     }
