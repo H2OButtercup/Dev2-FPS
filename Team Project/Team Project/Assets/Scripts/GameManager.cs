@@ -20,14 +20,28 @@ public class gameManager : MonoBehaviour
 
     int gameGoalCount;
 
+    public Transform playerSpawnPoint;
+    public GameObject playerPrefab;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         instance = this;
 
         player = GameObject.FindWithTag("Player");
-        playerScript = player.GetComponent<playerController>();
-        timeScaleOrig = Time.timeScale;
+        if(playerPrefab == null)
+        {
+            if(playerPrefab != null && playerSpawnPoint != null)
+            {
+                player = Instantiate(playerPrefab, playerSpawnPoint.position, playerSpawnPoint.rotation);
+                player.tag = "Player";
+            }
+        }
+        if (player != null)
+        {
+            playerScript = player.GetComponent<playerController>();
+            timeScaleOrig = Time.timeScale;
+        }
     }
 
     // Update is called once per frame
