@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.AI;
 
-public class EnemyAI : MonoBehaviour, IDamage
+public class enemyAI : MonoBehaviour, IDamage
 {
     [SerializeField] Renderer model;
     [SerializeField] NavMeshAgent agent;
@@ -25,37 +25,49 @@ public class EnemyAI : MonoBehaviour, IDamage
     float angleToPlayer;
     float stoppingDistOrig;
 
+
     bool playerInTrigger;
 
     Vector3 playerDir;
     Vector3 startingPos;
 
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         colorOrg = model.material.color;
-        GameManager.instance.UpdateGameGoal(1);
+        gameManager.instance.updateGameGoal(1);
         startingPos = transform.position;
         stoppingDistOrig = agent.stoppingDistance;
     }
 
+    // Update is called once per frame
     void Update()
     {
+
         if (agent.remainingDistance < 0.01f)
+        {
             roamTimer += Time.deltaTime;
+        }
 
-        if (playerInTrigger && !CanSeePlayer())
-            RoamCheck();
+        if (playerInTrigger && !canSeePlayer())
+        {
+            roamCheck();
+        }
         else if (!playerInTrigger)
-            RoamCheck();
+        {
+            roamCheck();
+        }
     }
 
-    void RoamCheck()
+    void roamCheck()
     {
-        if (roamTimer >= roamPauseTime && agent.remainingDistance < 0.1f)
-            Roam();
+        if (roamTimer >= roamPauseTime && agent.remainingDistance < 0.01f)
+        {
+            roam();
+        }
     }
 
-    void Roam()
+    void roam()
     {
         roamTimer = 0;
         agent.stoppingDistance = 0;
@@ -68,9 +80,9 @@ public class EnemyAI : MonoBehaviour, IDamage
         agent.SetDestination(hit.position);
     }
 
-    bool CanSeePlayer()
+    bool canSeePlayer()
     {
-        playerDir = GameManager.instance.player.transform.position - headPos.position;
+        playerDir = gameManager.instance.player.transform.position - headPos.position;
         angleToPlayer = Vector3.Angle(playerDir, transform.forward);
 
         Debug.DrawRay(headPos.position, playerDir);
@@ -83,22 +95,23 @@ public class EnemyAI : MonoBehaviour, IDamage
                 shootTimer += Time.deltaTime;
 
                 if (shootTimer >= shootRate)
-                    Shoot();
+                {
+                    shoot();
+                }
 
-                agent.SetDestination(GameManager.instance.player.transform.position);
+                agent.SetDestination(gameManager.instance.player.transform.position);
 
                 if (agent.remainingDistance <= agent.stoppingDistance)
-                    FaceTarget();
+                    faceTarget();
 
-                agent.stoppingDistance = stoppingDistOrig;
                 return true;
             }
         }
-        agent.stoppingDistance = 0;
+        agent.stoppingDistance = stoppingDistOrig;
         return false;
     }
 
-    void FaceTarget()
+    void faceTarget()
     {
         Quaternion rot = Quaternion.LookRotation(new Vector3(playerDir.x, transform.position.y, playerDir.z));
         transform.rotation = Quaternion.Lerp(transform.rotation, rot, faceTargetSpeed * Time.deltaTime);
@@ -107,7 +120,9 @@ public class EnemyAI : MonoBehaviour, IDamage
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
+        {
             playerInTrigger = true;
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -118,19 +133,20 @@ public class EnemyAI : MonoBehaviour, IDamage
             agent.stoppingDistance = 0;
         }
     }
-
     public void takeDamage(int amount)
     {
         HP -= amount;
-        agent.SetDestination(GameManager.instance.player.transform.position);
+        agent.SetDestination(gameManager.instance.player.transform.position);
 
         if (HP <= 0)
         {
-            GameManager.instance.UpdateGameGoal(-1);
+            gameManager.instance.updateGameGoal(-1);
             Destroy(gameObject);
         }
         else
+        {
             StartCoroutine(flashRed());
+        }
     }
 
     IEnumerator flashRed()
@@ -140,7 +156,7 @@ public class EnemyAI : MonoBehaviour, IDamage
         model.material.color = colorOrg;
     }
 
-    void Shoot()
+    void shoot()
     {
         shootTimer = 0;
 

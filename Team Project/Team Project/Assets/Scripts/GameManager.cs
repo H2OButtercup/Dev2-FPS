@@ -1,10 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
+public class gameManager : MonoBehaviour
 {
-    public static GameManager instance;
-
+    public static gameManager instance;
     [SerializeField] GameObject menuActive;
     [SerializeField] GameObject menuPause;
     [SerializeField] GameObject menuWin;
@@ -12,20 +11,22 @@ public class GameManager : MonoBehaviour
 
     public Image playerHPBar;
     public GameObject playerDamagePanel;
+
     public bool isPaused;
     public GameObject player;
-    public PlayerController playerScript;
+    public playerController playerScript;
 
     float timeScaleOrig;
 
     int gameGoalCount;
 
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         instance = this;
 
         player = GameObject.FindWithTag("Player");
-        playerScript = player.GetComponent<PlayerController>();
+        playerScript = player.GetComponent<playerController>();
         timeScaleOrig = Time.timeScale;
     }
 
@@ -36,18 +37,18 @@ public class GameManager : MonoBehaviour
         {
             if (menuActive == null)
             {
-                StatePause();
+                statePause();
                 menuActive = menuPause;
                 menuActive.SetActive(true);
             }
             else if (menuActive == menuPause)
             {
-                StateUnpause();
+                stateUnpause();
             }
         }
     }
 
-    public void StatePause()
+    public void statePause()
     {
         isPaused = !isPaused;
         Time.timeScale = 0;
@@ -55,7 +56,7 @@ public class GameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
     }
 
-    public void StateUnpause()
+    public void stateUnpause()
     {
         isPaused = !isPaused;
         Time.timeScale = timeScaleOrig;
@@ -65,22 +66,22 @@ public class GameManager : MonoBehaviour
         menuActive = null;
     }
 
-    public void UpdateGameGoal(int amount)
+    public void updateGameGoal(int amount)
     {
         gameGoalCount += amount;
 
         if (gameGoalCount <= 0)
         {
-            // You Win!
-            StatePause();
+            // you win!
+            statePause();
             menuActive = menuWin;
             menuActive.SetActive(true);
         }
     }
 
-    public void YouLose()
+    public void youLose()
     {
-        StatePause();
+        statePause();
         menuActive = menuLose;
         menuActive.SetActive(true);
     }
