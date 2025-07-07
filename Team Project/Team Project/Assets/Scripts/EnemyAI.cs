@@ -1,25 +1,16 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine.AI;
 
 public class enemyAI : MonoBehaviour, IDamage
 {
     [SerializeField] Renderer model;
-    [SerializeField] NavMeshAgent agent;
-    [SerializeField] Transform shootPos;
-    [SerializeField] Transform headPos;
 
     [SerializeField] int HP;
-    [SerializeField] int fov;
-    [SerializeField] int faceTargetSpeed;
-    [SerializeField] int roamDist;
-    [SerializeField] int roamPauseTime;
-
-    [SerializeField] GameObject bullet;
-    [SerializeField] float shootRate;
 
     Color colorOrg;
 
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/EnemyAI.cs
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/EnemyAI.cs
     float shootTimer;
     float roamTimer;
     float angleToPlayer;
@@ -31,18 +22,30 @@ public class enemyAI : MonoBehaviour, IDamage
     Vector3 playerDir;
     Vector3 startingPos;
 
+=======
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/enemyAI.cs
+=======
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/enemyAI.cs
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         colorOrg = model.material.color;
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/EnemyAI.cs
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/EnemyAI.cs
         gameManager.instance.updateGameGoal(1);
         startingPos = transform.position;
         stoppingDistOrig = agent.stoppingDistance;
+=======
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/enemyAI.cs
+=======
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/enemyAI.cs
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/EnemyAI.cs
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/EnemyAI.cs
 
         if (agent.remainingDistance < 0.01f)
         {
@@ -132,15 +135,33 @@ public class enemyAI : MonoBehaviour, IDamage
             playerInTrigger = false;
             agent.stoppingDistance = 0;
         }
+=======
+        
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/enemyAI.cs
+=======
+        
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/enemyAI.cs
     }
     public void takeDamage(int amount)
     {
         HP -= amount;
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/EnemyAI.cs
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/EnemyAI.cs
         agent.SetDestination(gameManager.instance.player.transform.position);
 
         if (HP <= 0)
         {
             gameManager.instance.updateGameGoal(-1);
+=======
+
+        if (HP <= 0)
+        {
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/enemyAI.cs
+=======
+
+        if (HP <= 0)
+        {
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/enemyAI.cs
             Destroy(gameObject);
         }
         else
@@ -155,6 +176,8 @@ public class enemyAI : MonoBehaviour, IDamage
         yield return new WaitForSeconds(0.1f);
         model.material.color = colorOrg;
     }
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/EnemyAI.cs
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/EnemyAI.cs
 
     void shoot()
     {
@@ -162,4 +185,8 @@ public class enemyAI : MonoBehaviour, IDamage
 
         Instantiate(bullet, shootPos.position, transform.rotation);
     }
+=======
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/enemyAI.cs
+=======
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/enemyAI.cs
 }

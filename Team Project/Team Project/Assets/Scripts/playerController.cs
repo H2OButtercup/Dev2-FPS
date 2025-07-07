@@ -1,12 +1,10 @@
 using UnityEngine;
-using System.Collections;
 
-public class playerController : MonoBehaviour, IDamage
+public class playerController : MonoBehaviour
 {
     [SerializeField] CharacterController controller;
     [SerializeField] LayerMask ignoreLayer;
 
-    [SerializeField] int HP;
     [SerializeField] int speed;
     [SerializeField] int sprintMod;
     [SerializeField] int jumpVel;
@@ -21,15 +19,29 @@ public class playerController : MonoBehaviour, IDamage
     Vector3 playerVel;
 
     int jumpCount;
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/playerController.cs
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/playerController.cs
     int HPOrig;
+=======
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/playerController.cs
+=======
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/playerController.cs
 
     float shootTimer;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/playerController.cs
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/playerController.cs
         HPOrig = HP;
         updatePlayerUI();
+=======
+        
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/playerController.cs
+=======
+        
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/playerController.cs
     }
 
     // Update is called once per frame
@@ -47,7 +59,7 @@ public class playerController : MonoBehaviour, IDamage
 
         shootTimer += Time.deltaTime;
 
-        if (controller.isGrounded)
+        if(controller.isGrounded)
         {
             playerVel = Vector3.zero;
             jumpCount = 0;
@@ -60,7 +72,7 @@ public class playerController : MonoBehaviour, IDamage
         controller.Move(playerVel * Time.deltaTime);
         playerVel.y -= gravity * Time.deltaTime;
 
-        if (Input.GetButton("Fire1") && shootTimer > shootRate)
+        if(Input.GetButton("Fire1") && shootTimer > shootRate)
         {
             shoot();
         }
@@ -103,6 +115,8 @@ public class playerController : MonoBehaviour, IDamage
             }
         }
     }
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/playerController.cs
+<<<<<<< HEAD:Team Project/Team Project/Assets/Scripts/playerController.cs
 
     public void takeDamage(int amount)
     {
@@ -130,4 +144,8 @@ public class playerController : MonoBehaviour, IDamage
         yield return new WaitForSeconds(0.1f);
         gameManager.instance.playerDamagePanel.SetActive(false);
     }
+=======
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/playerController.cs
+=======
+>>>>>>> parent of 696740da (Second Commit added enemy AI, Bullet, and NavMesh):Team Project/Assets/Scripts/playerController.cs
 }
