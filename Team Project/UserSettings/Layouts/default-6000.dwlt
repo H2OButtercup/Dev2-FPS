@@ -19,15 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
-  m_Title: Scene
-=======
   m_Title: Hierarchy
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
-=======
-  m_Title: Hierarchy
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -129,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 111
+  controlID: 112
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -155,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 18
+  controlID: 27
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -193,7 +185,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -207,8 +199,9 @@ MonoBehaviour:
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
+  - {fileID: 18}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +219,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 804.6667
     y: 0
-    width: 272.6667
+    width: 253.33331
     height: 920
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
@@ -250,9 +243,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1077.3334
+    x: 1058
     y: 0
-    width: 244.66663
+    width: 215.33337
     height: 920
   m_MinSize: {x: 232, y: 276}
   m_MaxSize: {x: 10002, y: 10026}
@@ -277,19 +270,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1322
+    x: 1273.3334
     y: 0
-    width: 384.66663
+    width: 433.33325
     height: 920
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
-  - {fileID: 18}
   - {fileID: 19}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -693,10 +685,10 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/TrailRenderer
       index: 8
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 25.333332}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
@@ -827,21 +819,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
-    m_Target: {x: 58.75923, y: 0.13789202, z: -99.17763}
+    m_Target: {x: 69.835945, y: 12.27597, z: -96.69999}
     speed: 2
-    m_Value: {x: 58.75923, y: 0.13789202, z: -99.17763}
-=======
-    m_Target: {x: 289.2627, y: 13.526007, z: -4594.6953}
-    speed: 2
-    m_Value: {x: 289.2627, y: 13.526007, z: -4594.6953}
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
-=======
-    m_Target: {x: 289.2627, y: 13.526007, z: -4594.6953}
-    speed: 2
-    m_Value: {x: 289.2627, y: 13.526007, z: -4594.6953}
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
+    m_Value: {x: 69.835945, y: 12.27597, z: -96.69999}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -887,33 +867,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
-    m_Target: {x: 0.028864045, y: 0.9435324, z: -0.31877226, w: 0.08543429}
+    m_Target: {x: -0.258506, y: 0.61479473, z: -0.22358648, w: -0.7108016}
     speed: 2
-    m_Value: {x: 0.028864028, y: 0.9435319, z: -0.31877208, w: 0.085434236}
+    m_Value: {x: -0.25850242, y: 0.6147862, z: -0.2235834, w: -0.71079177}
   m_Size:
-    m_Target: 25.13683
+    m_Target: 4.3864098
     speed: 2
-    m_Value: 25.13683
-=======
-    m_Target: {x: 0.02602913, y: -0.9472424, z: 0.30900013, w: 0.08046985}
-    speed: 2
-    m_Value: {x: 0.025721366, y: -0.94736874, z: 0.3090411, w: 0.079526424}
-  m_Size:
-    m_Target: 2.8380573
-    speed: 2
-    m_Value: 2.7158444
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
-=======
-    m_Target: {x: 0.02602913, y: -0.9472424, z: 0.30900013, w: 0.08046985}
-    speed: 2
-    m_Value: {x: 0.025721366, y: -0.94736874, z: 0.3090411, w: 0.079526424}
-  m_Size:
-    m_Target: 2.8380573
-    speed: 2
-    m_Value: 2.7158444
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
+    m_Value: 4.3864098
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1071,7 +1031,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 804.6667
     y: 78.66667
-    width: 270.6667
+    width: 251.33331
     height: 894
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1087,21 +1047,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
-      m_SelectedIDs: 42ba0000
-      m_LastClickedID: 47682
-      m_ExpandedIDs: 46f0ffffaaf5ffff
-=======
-      m_SelectedIDs: 1ad7ffff
-      m_LastClickedID: -10470
-      m_ExpandedIDs: 5cd8ffff
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
-=======
-      m_SelectedIDs: 1ad7ffff
-      m_LastClickedID: -10470
-      m_ExpandedIDs: 5cd8ffff
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
+      m_SelectedIDs: f4a1ffff
+      m_LastClickedID: -24076
+      m_ExpandedIDs: 108effff888effff2e8fffff26bcffffacf4ffff50f5ffff8ef6ffff18fbffffa2b70000f8b70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1118,7 +1066,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 9}
+        m_ClientGUIView: {fileID: 7}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1147,9 +1095,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1077.3334
+    x: 1058
     y: 78.66667
-    width: 242.66663
+    width: 213.33337
     height: 894
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1173,7 +1121,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Textures/HUDShapes (1)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1184,30 +1132,14 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
   m_LastProjectPath: C:\Users\Mansa\Unity_Projects\Dev2-FPS\Team Project
-=======
-  m_LastProjectPath: C:\Users\Mansa\Unity_Projects\Dev2-FPS\Team Project\Team Project
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
-=======
-  m_LastProjectPath: C:\Users\Mansa\Unity_Projects\Dev2-FPS\Team Project\Team Project
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b0230000
     m_LastClickedID: 9136
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
-    m_ExpandedIDs: 00000000e6b70000e8b70000eab70000ecb70000
-=======
-    m_ExpandedIDs: 00000000a4c00000a6c00000a8c00000aac00000acc00000aec00000b0c00000b2c00000b4c00000b6c00000b8c00000bac00000bcc00000bec00000
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
-=======
-    m_ExpandedIDs: 00000000a4c00000a6c00000a8c00000aac00000acc00000aec00000b0c00000b2c00000b4c00000b6c00000b8c00000bac00000bcc00000bec00000
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
+    m_ExpandedIDs: 000000007cb500007eb5000080b5000082b50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1236,15 +1168,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
-<<<<<<< Updated upstream:Team Project/UserSettings/Layouts/default-6000.dwlt
-    m_ExpandedIDs: ffffffff00000000e6b70000e8b70000eab70000ecb70000
-=======
-    m_ExpandedIDs: ffffffff00000000a4c00000a6c00000a8c00000aac00000acc00000aec00000b0c00000b2c00000b4c00000b6c00000b8c00000bac00000bcc00000bec00000
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
-=======
-    m_ExpandedIDs: ffffffff00000000a4c00000a6c00000a8c00000aac00000acc00000aec00000b0c00000b2c00000b4c00000b6c00000b8c00000bac00000bcc00000bec00000
->>>>>>> Stashed changes:Team Project/Team Project/UserSettings/Layouts/default-6000.dwlt
+    m_ExpandedIDs: ffffffff000000007cb5000080b50000d0b600000ab7000054c20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1323,10 +1247,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1616
-    y: 79
-    width: 365
-    height: 1315
+    x: 1058
+    y: 78.66667
+    width: 213.33337
+    height: 894
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1359,9 +1283,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1322
+    x: 1273.3334
     y: 78.66667
-    width: 383.66663
+    width: 432.33325
     height: 894
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1408,10 +1332,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project Settings\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1983
-    y: 79
-    width: 576
-    height: 1315
+    x: 0
+    y: 551.3334
+    width: 803.6667
+    height: 421.33334
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1424,14 +1348,14 @@ MonoBehaviour:
     m_ContainerData: []
     m_OverlaysVisible: 1
   m_PosLeft: {x: 0, y: 0}
-  m_PosRight: {x: 0, y: 0}
+  m_PosRight: {x: 0, y: 170}
   m_Scope: 1
   m_SplitterPos: 150
   m_SearchText: 
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c359fa90
-    m_LastClickedID: -1862641213
+    m_SelectedIDs: 7b59923f
+    m_LastClickedID: 1066555771
     m_ExpandedIDs: 000000007f0eae07e594f01ac53aba5a
     m_RenameOverlay:
       m_UserAcceptedRename: 0

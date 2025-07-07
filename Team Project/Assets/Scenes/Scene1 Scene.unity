@@ -119,76 +119,546 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &244199568
-PrefabInstance:
+--- !u!1 &68676261
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Platform (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.24958439
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.8092346
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.6750002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.5302734
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071079
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.70710576
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &244199569 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 244199568}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 68676262}
+  - component: {fileID: 68676265}
+  - component: {fileID: 68676264}
+  - component: {fileID: 68676263}
+  m_Layer: 0
+  m_Name: Lava Pit Area Wall 9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &68676262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68676261}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 21, y: -0.4654498, z: 3.5029068}
+  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!65 &68676263
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68676261}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &68676264
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68676261}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &68676265
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68676261}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &99783808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 99783809}
+  - component: {fileID: 99783812}
+  - component: {fileID: 99783811}
+  - component: {fileID: 99783810}
+  m_Layer: 0
+  m_Name: Lava Pit Area Wall 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &99783809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99783808}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 13, y: -0.4654498, z: 3.5029068}
+  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!65 &99783810
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99783808}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &99783811
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99783808}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &99783812
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99783808}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &175104443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 175104444}
+  - component: {fileID: 175104447}
+  - component: {fileID: 175104446}
+  - component: {fileID: 175104445}
+  m_Layer: 0
+  m_Name: Lava Pit Area Wall 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &175104444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175104443}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 45, y: -0.4654498, z: 3.5029068}
+  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!65 &175104445
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175104443}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &175104446
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175104443}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &175104447
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175104443}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &190645552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 190645553}
+  - component: {fileID: 190645556}
+  - component: {fileID: 190645555}
+  - component: {fileID: 190645554}
+  m_Layer: 0
+  m_Name: Lava Pit Area Wall 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &190645553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190645552}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 13, y: -0.4654498, z: -11.497093}
+  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!65 &190645554
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190645552}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &190645555
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190645552}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &190645556
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190645552}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &218295072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 218295073}
+  - component: {fileID: 218295076}
+  - component: {fileID: 218295075}
+  - component: {fileID: 218295074}
+  m_Layer: 0
+  m_Name: Lava Pit Area Wall 8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &218295073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218295072}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 37, y: -0.4654498, z: -11.497093}
+  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!65 &218295074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218295072}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &218295075
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218295072}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &218295076
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218295072}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &280961126
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,262 +768,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 795150158}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &327864627
-PrefabInstance:
+--- !u!1 &289497397
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Platform (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.24958439
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -18.190765
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.6750002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.5302734
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071079
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.70710576
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &327864628 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 327864627}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &331634141
-PrefabInstance:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 289497398}
+  - component: {fileID: 289497400}
+  - component: {fileID: 289497399}
+  m_Layer: 5
+  m_Name: Health Bar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &289497398
+RectTransform:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Wall (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.0592346
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7500002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.46972656
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &331634142 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 331634141}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &420761405
-PrefabInstance:
+  m_GameObject: {fileID: 289497397}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.985, y: 0.8, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 486338648}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 526, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &289497399
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Wall (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -14.940765
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7500002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -14.530273
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &420761406 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 420761405}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &473962331
-PrefabInstance:
+  m_GameObject: {fileID: 289497397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 1, b: 0.04856491, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 26a061a39a0668e4384f42573e4b2d4c, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &289497400
+CanvasRenderer:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Wall (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 21.559235
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.8000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.0302734
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071079
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.70710576
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &473962332 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 473962331}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289497397}
+  m_CullTransparentMesh: 1
 --- !u!1 &484851923
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,144 +945,88 @@ Transform:
   m_GameObject: {fileID: 484851923}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 30.559235, y: -3.8000002, z: -11.030273}
+  m_LocalPosition: {x: 30.559235, y: -3.75, z: -11.030273}
   m_LocalScale: {x: 8, y: 7.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1733043483}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!1001 &492116399
-PrefabInstance:
+--- !u!1 &486338647
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Wall (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.9407654
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.8000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -14.530273
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &492116400 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 492116399}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &521023924
-PrefabInstance:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 486338648}
+  - component: {fileID: 486338650}
+  - component: {fileID: 486338649}
+  m_Layer: 5
+  m_Name: Health Bar Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &486338648
+RectTransform:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Platform (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.24958439
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -10.190765
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.6750002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.5302734
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071079
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.70710576
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &521023925 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 521023924}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486338647}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 289497398}
+  m_Father: {fileID: 847832795}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -26.5, y: -21.25}
+  m_SizeDelta: {x: 526, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &486338649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486338647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.88235295}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 26a061a39a0668e4384f42573e4b2d4c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &486338650
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486338647}
+  m_CullTransparentMesh: 1
 --- !u!1 &603619849
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,206 +1129,336 @@ Transform:
   m_GameObject: {fileID: 603619849}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
-  m_LocalPosition: {x: 26.059235, y: -3.8000002, z: -7.5302734}
+  m_LocalPosition: {x: 26.059235, y: -3.75, z: -7.5302734}
   m_LocalScale: {x: 8, y: 7.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1733043483}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!1001 &628667214
-PrefabInstance:
+--- !u!1 &651870740
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Platform
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3.99975
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 14.809235
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.5302734
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071079
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.70710576
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &628667215 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 628667214}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &680697151
-PrefabInstance:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 651870741}
+  - component: {fileID: 651870744}
+  - component: {fileID: 651870743}
+  - component: {fileID: 651870742}
+  m_Layer: 0
+  m_Name: Lava Pit Area Wall 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &651870741
+Transform:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Wall (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 17.059235
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.8000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -14.530273
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &680697152 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 680697151}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &741978996
-PrefabInstance:
+  m_GameObject: {fileID: 651870740}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 21, y: -0.4654498, z: -11.497093}
+  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!65 &651870742
+BoxCollider:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Wall (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.059235
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7500002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.46972656
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &741978997 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 741978996}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651870740}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &651870743
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651870740}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &651870744
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651870740}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &665944184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 665944185}
+  - component: {fileID: 665944188}
+  - component: {fileID: 665944187}
+  - component: {fileID: 665944186}
+  m_Layer: 0
+  m_Name: Lava Pit Area Platform (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &665944185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665944184}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7071099, z: -0, w: -0.7071037}
+  m_LocalPosition: {x: 24.5, y: -1.2154498, z: -3.9970932}
+  m_LocalScale: {x: 14, y: 0.49981153, z: 4.999595}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -269.999, z: 0}
+--- !u!65 &665944186
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665944184}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &665944187
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665944184}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &665944188
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665944184}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &667513538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 667513539}
+  - component: {fileID: 667513542}
+  - component: {fileID: 667513541}
+  - component: {fileID: 667513540}
+  m_Layer: 0
+  m_Name: Lava Pit Area Wall 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &667513539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667513538}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 29, y: -0.4654498, z: -11.497093}
+  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!65 &667513540
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667513538}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &667513541
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667513538}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &667513542
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667513538}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &795150157
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,133 +1490,328 @@ Transform:
   m_Children:
   - {fileID: 280961130}
   - {fileID: 1733043483}
-  - {fileID: 2074746876}
+  - {fileID: 865149901}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &807597699
-PrefabInstance:
+--- !u!1 &847832791
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Wall (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 17.059235
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7500002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.46972656
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &807597700 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 807597699}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &915755726
-PrefabInstance:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 847832795}
+  - component: {fileID: 847832794}
+  - component: {fileID: 847832793}
+  - component: {fileID: 847832792}
+  m_Layer: 5
+  m_Name: Health Bar Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &847832792
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Wall (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.059235
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.8000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -14.530273
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &915755727 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 915755726}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847832791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &847832793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847832791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &847832794
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847832791}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &847832795
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847832791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 486338648}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &865149900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 865149901}
+  m_Layer: 0
+  m_Name: Lava Pit Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &865149901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865149900}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 164.53467, y: 4.26545, z: -4527.6406}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 175104444}
+  - {fileID: 1467211342}
+  - {fileID: 867508377}
+  - {fileID: 667513539}
+  - {fileID: 99783809}
+  - {fileID: 190645553}
+  - {fileID: 1661337078}
+  - {fileID: 218295073}
+  - {fileID: 68676262}
+  - {fileID: 651870741}
+  - {fileID: 1679445364}
+  - {fileID: 1594779336}
+  - {fileID: 1691224540}
+  - {fileID: 2121440335}
+  - {fileID: 2138251595}
+  - {fileID: 1469457854}
+  - {fileID: 1514036601}
+  - {fileID: 1859022304}
+  - {fileID: 665944185}
+  - {fileID: 1129018111}
+  m_Father: {fileID: 795150158}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &867508376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 867508377}
+  - component: {fileID: 867508380}
+  - component: {fileID: 867508379}
+  - component: {fileID: 867508378}
+  m_Layer: 0
+  m_Name: Lava Pit Area Wall 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &867508377
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867508376}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 29, y: -0.4654498, z: 3.5029068}
+  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!65 &867508378
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867508376}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &867508379
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867508376}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &867508380
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867508376}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &911755948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 911755949}
+  - component: {fileID: 911755950}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &911755949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911755948}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1125360200}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &911755950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911755948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 419b1661115c57a479195f9954bad6fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuActive: {fileID: 0}
+  menuPause: {fileID: 0}
+  menuWin: {fileID: 0}
+  menuLose: {fileID: 0}
+  playerHPBar: {fileID: 289497399}
+  playerDamagePanel: {fileID: 0}
+  isPaused: 0
+  player: {fileID: 1663874066}
+  playerScript: {fileID: 0}
+  playerSpawnPoint: {fileID: 0}
+  playerPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 0}
+  numberOfEnemiesToSpawn: 5
+  enemySpawnPoints: []
 --- !u!1 &923424829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,82 +1914,12 @@ Transform:
   m_GameObject: {fileID: 923424829}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
-  m_LocalPosition: {x: 26.059235, y: -3.8000002, z: -14.530273}
+  m_LocalPosition: {x: 26.059235, y: -3.75, z: -14.530273}
   m_LocalScale: {x: 8, y: 7.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1733043483}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!1001 &1029393140
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Platform (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.24958439
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.809235
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.6750002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.5302734
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071079
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.70710576
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &1029393141 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 1029393140}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1079704412
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,17 +1999,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1125360199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1125360200}
+  m_Layer: 0
+  m_Name: UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1125360200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125360199}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 94.46313, y: 0, z: -96.18517}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 911755949}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1129018110
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1733043483}
+    m_TransformParent: {fileID: 865149901}
     m_Modifications:
     - target: {fileID: 3675187508746135096, guid: 13f50d758b72dd34d96d9b436b0286b2, type: 3}
       propertyPath: m_Name
-      value: Starting Area Door Frame (1)
+      value: Lava Pit Area Exit
       objectReference: {fileID: 0}
     - target: {fileID: 8494524049826008238, guid: 13f50d758b72dd34d96d9b436b0286b2, type: 3}
       propertyPath: m_LocalScale.y
@@ -1529,15 +2049,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8494524049826008238, guid: 13f50d758b72dd34d96d9b436b0286b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.44077
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8494524049826008238, guid: 13f50d758b72dd34d96d9b436b0286b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.75
+      value: -0.4654498
       objectReference: {fileID: 0}
     - target: {fileID: 8494524049826008238, guid: 13f50d758b72dd34d96d9b436b0286b2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.28027
+      value: -5.247093
       objectReference: {fileID: 0}
     - target: {fileID: 8494524049826008238, guid: 13f50d758b72dd34d96d9b436b0286b2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1577,448 +2097,772 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8494524049826008238, guid: 13f50d758b72dd34d96d9b436b0286b2, type: 3}
   m_PrefabInstance: {fileID: 1129018110}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1177958827
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Wall (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.9407654
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7500002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.46972656
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &1177958828 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 1177958827}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1182501289
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Wall (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -22.940765
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7500002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.46972656
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &1182501290 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 1182501289}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1315191542
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Platform (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.24958439
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -14.190765
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.6750002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.5302734
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071079
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.70710576
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &1315191543 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 1315191542}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1351432484
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Platform (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.24958439
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.8092346
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.6750002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.5302734
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071079
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.70710576
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &1351432485 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 1351432484}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1389539085
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Platform (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.24958439
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5.9997997
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.6907654
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.6750002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.5302734
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071079
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.70710576
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &1389539086 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 1389539085}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1406931489 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8494524049826008238, guid: 13f50d758b72dd34d96d9b436b0286b2, type: 3}
   m_PrefabInstance: {fileID: 7148472941665833148}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1526027259
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit
-      objectReference: {fileID: 0}
-    - target: {fileID: 7648878391576250310, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 67a7227cb25cb914dab2772ac561403b, type: 2}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.24958439
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 36.50058
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 65
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.125
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -91.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071079
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.70710576
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      insertIndex: 1
-      addedObject: {fileID: 1526027261}
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!1 &1526027260 stripped
+--- !u!1 &1467211341
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 1526027259}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1526027261
-MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526027260}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1467211342}
+  - component: {fileID: 1467211345}
+  - component: {fileID: 1467211344}
+  - component: {fileID: 1467211343}
+  m_Layer: 0
+  m_Name: Lava Pit Area Wall 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1467211342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467211341}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 45, y: -0.4654498, z: -11.497093}
+  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!65 &1467211343
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467211341}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12e17517c507b884fa3cfc0daa366d82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 2
-  rb: {fileID: 0}
-  damageAmount: 1
-  damageRate: 0.5
-  speed: 0
-  destroyTime: 0
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1467211344
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467211341}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1467211345
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467211341}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1469457853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1469457854}
+  - component: {fileID: 1469457857}
+  - component: {fileID: 1469457856}
+  - component: {fileID: 1469457855}
+  m_Layer: 0
+  m_Name: Lava Pit Area Platform (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1469457854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469457853}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7071099, z: -0, w: -0.7071037}
+  m_LocalPosition: {x: 38.5, y: -1.2154498, z: -3.9970932}
+  m_LocalScale: {x: 14, y: 0.49981153, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -269.999, z: 0}
+--- !u!65 &1469457855
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469457853}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1469457856
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469457853}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1469457857
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469457853}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1514036600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1514036601}
+  - component: {fileID: 1514036604}
+  - component: {fileID: 1514036603}
+  - component: {fileID: 1514036602}
+  m_Layer: 0
+  m_Name: Lava Pit Area Platform (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1514036601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514036600}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7071099, z: -0, w: -0.7071037}
+  m_LocalPosition: {x: 34.5, y: -1.2154498, z: -3.9970932}
+  m_LocalScale: {x: 14, y: 0.49981153, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -269.999, z: 0}
+--- !u!65 &1514036602
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514036600}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1514036603
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514036600}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1514036604
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514036600}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1594779335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1594779336}
+  - component: {fileID: 1594779339}
+  - component: {fileID: 1594779338}
+  - component: {fileID: 1594779337}
+  m_Layer: 0
+  m_Name: Lava Pit Area Wall 12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1594779336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594779335}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 5, y: -0.4654498, z: -11.497093}
+  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!65 &1594779337
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594779335}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1594779338
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594779335}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1594779339
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594779335}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1661337077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1661337078}
+  - component: {fileID: 1661337081}
+  - component: {fileID: 1661337080}
+  - component: {fileID: 1661337079}
+  m_Layer: 0
+  m_Name: Lava Pit Area Wall 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1661337078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661337077}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 37, y: -0.4654498, z: 3.5029068}
+  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!65 &1661337079
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661337077}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1661337080
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661337077}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1661337081
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661337077}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1663874066 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9060574659793402457, guid: b03dd3f04abad4c4db1751079c9a3ae6, type: 3}
+  m_PrefabInstance: {fileID: 2074225376}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1679445363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1679445364}
+  - component: {fileID: 1679445367}
+  - component: {fileID: 1679445366}
+  - component: {fileID: 1679445365}
+  m_Layer: 0
+  m_Name: Lava Pit Area Wall 11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1679445364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679445363}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 5, y: -0.4654498, z: 3.5029068}
+  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!65 &1679445365
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679445363}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1679445366
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679445363}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1679445367
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679445363}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1691224539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1691224540}
+  - component: {fileID: 1691224543}
+  - component: {fileID: 1691224542}
+  - component: {fileID: 1691224541}
+  m_Layer: 0
+  m_Name: Lava Pit Area Wall 13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1691224540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691224539}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7071099, z: -0, w: -0.7071037}
+  m_LocalPosition: {x: 49.5, y: -0.4654498, z: 0.0029067993}
+  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -269.999, z: 0}
+--- !u!65 &1691224541
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691224539}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1691224542
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691224539}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1691224543
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691224539}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1733043482
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,268 +2895,10 @@ Transform:
   - {fileID: 484851927}
   - {fileID: 923424833}
   - {fileID: 603619853}
-  - {fileID: 3064844036403137134}
   - {fileID: 1406931489}
-  - {fileID: 1129018111}
   m_Father: {fileID: 795150158}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1830008835
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Wall (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -22.940765
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7500002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -14.530273
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &1830008836 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 1830008835}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1855506133
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Wall (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -14.940765
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7500002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.46972656
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &1855506134 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 1855506133}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1921514218
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Wall (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.0592346
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.8000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -14.530273
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &1921514219 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 1921514218}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &2058756245
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2074746876}
-    m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Lava Pit Area Platform (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3.99975
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -22.690765
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.5302734
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071079
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.70710576
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &2058756246 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 2058756245}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2074746875
+--- !u!1 &1859022303
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2320,113 +2906,276 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2074746876}
+  - component: {fileID: 1859022304}
+  - component: {fileID: 1859022307}
+  - component: {fileID: 1859022306}
+  - component: {fileID: 1859022305}
   m_Layer: 0
-  m_Name: Lava Pit Area
+  m_Name: Lava Pit Area Platform (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2074746876
+--- !u!4 &1859022304
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2074746875}
+  m_GameObject: {fileID: 1859022303}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 192.47543, y: 7.55, z: -4524.6074}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.7071099, z: -0, w: -0.7071037}
+  m_LocalPosition: {x: 30.5, y: -1.2154498, z: -3.9970932}
+  m_LocalScale: {x: 14, y: 0.49981153, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 473962332}
-  - {fileID: 807597700}
-  - {fileID: 680697152}
-  - {fileID: 331634142}
-  - {fileID: 1921514219}
-  - {fileID: 1855506134}
-  - {fileID: 420761406}
-  - {fileID: 741978997}
-  - {fileID: 915755727}
-  - {fileID: 1177958828}
-  - {fileID: 492116400}
-  - {fileID: 1182501290}
-  - {fileID: 1830008836}
-  - {fileID: 628667215}
-  - {fileID: 2058756246}
-  - {fileID: 1029393141}
-  - {fileID: 244199569}
-  - {fileID: 1351432485}
-  - {fileID: 521023925}
-  - {fileID: 1315191543}
-  - {fileID: 327864628}
-  - {fileID: 1389539086}
-  m_Father: {fileID: 795150158}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &3064844036403137133
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -269.999, z: 0}
+--- !u!65 &1859022305
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859022303}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1859022306
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859022303}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1859022307
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859022303}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &2074225376
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1733043483}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6459861777668243659, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-      propertyPath: m_Name
-      value: Starting Area Wall (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
+    - target: {fileID: 7841981172478153509, guid: b03dd3f04abad4c4db1751079c9a3ae6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.440765
+      value: 93.57932
       objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
+    - target: {fileID: 7841981172478153509, guid: b03dd3f04abad4c4db1751079c9a3ae6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.8000002
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
+    - target: {fileID: 7841981172478153509, guid: b03dd3f04abad4c4db1751079c9a3ae6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.0302734
+      value: -96.060585
       objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
+    - target: {fileID: 7841981172478153509, guid: b03dd3f04abad4c4db1751079c9a3ae6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071079
+      value: 0.70710784
       objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
+    - target: {fileID: 7841981172478153509, guid: b03dd3f04abad4c4db1751079c9a3ae6, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
+    - target: {fileID: 7841981172478153509, guid: b03dd3f04abad4c4db1751079c9a3ae6, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0.70710576
       objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
+    - target: {fileID: 7841981172478153509, guid: b03dd3f04abad4c4db1751079c9a3ae6, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
+    - target: {fileID: 7841981172478153509, guid: b03dd3f04abad4c4db1751079c9a3ae6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
+    - target: {fileID: 7841981172478153509, guid: b03dd3f04abad4c4db1751079c9a3ae6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
+    - target: {fileID: 7841981172478153509, guid: b03dd3f04abad4c4db1751079c9a3ae6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060574659793402457, guid: b03dd3f04abad4c4db1751079c9a3ae6, type: 3}
+      propertyPath: m_Name
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
---- !u!4 &3064844036403137134 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: b03dd3f04abad4c4db1751079c9a3ae6, type: 3}
+--- !u!4 &2121440335 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8284173499503291449, guid: 7567592a4c822b64da07c3b12d69da21, type: 3}
-  m_PrefabInstance: {fileID: 3064844036403137133}
+  m_CorrespondingSourceObject: {fileID: 4680639067512957037, guid: 3f8f09ddaf46cbb419f2a15321f625cf, type: 3}
+  m_PrefabInstance: {fileID: 9026423429786502289}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2138251594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2138251595}
+  - component: {fileID: 2138251598}
+  - component: {fileID: 2138251597}
+  - component: {fileID: 2138251596}
+  m_Layer: 0
+  m_Name: Lava Pit Area Platform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2138251595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138251594}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7071099, z: -0, w: -0.7071037}
+  m_LocalPosition: {x: 42.5, y: -2.5904498, z: -3.9970932}
+  m_LocalScale: {x: 14, y: 3.24975, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865149901}
+  m_LocalEulerAnglesHint: {x: 0, y: -269.999, z: 0}
+--- !u!65 &2138251596
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138251594}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2138251597
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138251594}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6b16e74f2a714884fafeca5147a03add, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2138251598
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138251594}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &7148472941665833148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2449,7 +3198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8494524049826008238, guid: 13f50d758b72dd34d96d9b436b0286b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.8000002
+      value: -3.75
       objectReference: {fileID: 0}
     - target: {fileID: 8494524049826008238, guid: 13f50d758b72dd34d96d9b436b0286b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2488,10 +3237,69 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13f50d758b72dd34d96d9b436b0286b2, type: 3}
+--- !u!1001 &9026423429786502289
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 865149901}
+    m_Modifications:
+    - target: {fileID: 4680639067512957037, guid: 3f8f09ddaf46cbb419f2a15321f625cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680639067512957037, guid: 3f8f09ddaf46cbb419f2a15321f625cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4654498
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680639067512957037, guid: 3f8f09ddaf46cbb419f2a15321f625cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0029067993
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680639067512957037, guid: 3f8f09ddaf46cbb419f2a15321f625cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071037
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680639067512957037, guid: 3f8f09ddaf46cbb419f2a15321f625cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680639067512957037, guid: 3f8f09ddaf46cbb419f2a15321f625cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071099
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680639067512957037, guid: 3f8f09ddaf46cbb419f2a15321f625cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680639067512957037, guid: 3f8f09ddaf46cbb419f2a15321f625cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680639067512957037, guid: 3f8f09ddaf46cbb419f2a15321f625cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -269.999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680639067512957037, guid: 3f8f09ddaf46cbb419f2a15321f625cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5470764679562119618, guid: 3f8f09ddaf46cbb419f2a15321f625cf, type: 3}
+      propertyPath: m_Name
+      value: Lava Pit Area Wall 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f8f09ddaf46cbb419f2a15321f625cf, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 2074225376}
   - {fileID: 795150158}
   - {fileID: 1079704415}
-  - {fileID: 1526027259}
+  - {fileID: 1125360200}
+  - {fileID: 847832795}
