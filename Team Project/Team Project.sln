@@ -101,6 +101,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mathematics.Editor", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.SettingsProvider.Editor", "Unity.VisualScripting.SettingsProvider.Editor.csproj", "{C7FF4213-A031-96E9-1317-A1B4CB07D424}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{DDC27992-562F-4971-BFB2-3D42D1C0C3F9}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem.TestFramework", "Unity.InputSystem.TestFramework.csproj", "{722482A9-8CE0-762D-BD6A-E6C52E51A916}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ShaderGraph.Utilities", "Unity.ShaderGraph.Utilities.csproj", "{2A45995C-9C3A-AEF1-E3B7-A9DEE2AC27CF}"
@@ -395,6 +397,10 @@ Global
 		{C7FF4213-A031-96E9-1317-A1B4CB07D424}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7FF4213-A031-96E9-1317-A1B4CB07D424}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7FF4213-A031-96E9-1317-A1B4CB07D424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC27992-562F-4971-BFB2-3D42D1C0C3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC27992-562F-4971-BFB2-3D42D1C0C3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC27992-562F-4971-BFB2-3D42D1C0C3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC27992-562F-4971-BFB2-3D42D1C0C3F9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{722482A9-8CE0-762D-BD6A-E6C52E51A916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{722482A9-8CE0-762D-BD6A-E6C52E51A916}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{722482A9-8CE0-762D-BD6A-E6C52E51A916}.Release|Any CPU.ActiveCfg = Release|Any CPU

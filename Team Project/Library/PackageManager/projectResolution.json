@@ -1,18 +1,31 @@
 {
   "context": {
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
     "projectPath": "C:/Users/Mansa/Unity_Projects/Dev2-FPS/Team Project/Packages",
     "unityVersion": "6000.1.9f1"
   },
   "inputs": [
     "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Packages\\manifest.json",
     "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Packages\\packages-lock.json",
+=======
+    "projectPath": "C:/Users/Mansa/Unity_Projects/Dev2-FPS/Team Project/Team Project/Packages",
+    "unityVersion": "6000.1.9f1"
+  },
+  "inputs": [
+    "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Packages\\manifest.json",
+    "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Packages\\packages-lock.json",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.9f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.2d.sprite@5eb30061d420",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.2d.sprite@5eb30061d420",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "5eb30061d42006925d91d40a6a8fca10bd64bbee",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
@@ -22,7 +35,11 @@
     "com.unity.ai.navigation@2.0.8": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.ai.navigation@eb5635ad590d",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ai.navigation@eb5635ad590d",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "eb5635ad590d47cef2a5c920d9475cc222db3f67",
       "editorCompatibility": "6000.0.0a1",
       "version": "2.0.8",
@@ -32,7 +49,11 @@
     "com.unity.collab-proxy@2.8.2": {
       "name": "com.unity.collab-proxy",
       "displayName": "Version Control",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.collab-proxy@c854d1f7d97f",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.collab-proxy@c854d1f7d97f",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "c854d1f7d97fbe1905f3e3591ded6fe77d96e654",
       "editorCompatibility": "2021.3.0f1",
       "version": "2.8.2",
@@ -42,7 +63,11 @@
     "com.unity.ide.rider@3.0.36": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.ide.rider@4d374c7eb6db",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ide.rider@4d374c7eb6db",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "4d374c7eb6db6907c7e6925e3086c3c73f926e13",
       "editorCompatibility": "2019.4.6f1",
       "version": "3.0.36",
@@ -52,7 +77,11 @@
     "com.unity.ide.visualstudio@2.0.23": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
       "editorCompatibility": "2019.4.25f1",
       "version": "2.0.23",
@@ -62,7 +91,11 @@
     "com.unity.inputsystem@1.14.0": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "7fe8299111a78212d8968229ab41a82e4991ba25",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.14.0",
@@ -72,7 +105,11 @@
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "f3fb577b3546594b97b8cc34307cd621f60f1c73",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
@@ -82,7 +119,11 @@
     "com.unity.render-pipelines.universal@17.1.0": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "2b88762731f8352032155be30e37d468ef710c87",
       "editorCompatibility": "6000.1.0a1",
       "version": "17.1.0",
@@ -92,7 +133,11 @@
     "com.unity.test-framework@1.5.1": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.test-framework@7056e7f856e9",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.test-framework@7056e7f856e9",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "7056e7f856e91f1d294fbe8db0c8fea1ffd9ad5d",
       "editorCompatibility": "2022.3.0a1",
       "version": "1.5.1",
@@ -102,7 +147,11 @@
     "com.unity.timeline@1.8.8": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.timeline@fa3a0bab2b90",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.timeline@fa3a0bab2b90",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "fa3a0bab2b909389f8e6c20d5ff275c9e15ae0a2",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.8.8",
@@ -112,7 +161,11 @@
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.ugui@57cef44123c7",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ugui@57cef44123c7",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "57cef44123c7486b2e2f08dc6535aecf6c34b8ef",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
@@ -122,7 +175,11 @@
     "com.unity.visualeffectgraph@17.1.0": {
       "name": "com.unity.visualeffectgraph",
       "displayName": "Visual Effect Graph",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.visualeffectgraph@40f2662747ce",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.visualeffectgraph@40f2662747ce",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "40f2662747ce8da33f5503683e55c4e3f2bdd4ee",
       "editorCompatibility": "6000.1.0a1",
       "version": "17.1.0",
@@ -132,7 +189,11 @@
     "com.unity.visualscripting@1.9.8": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.visualscripting@b4d700247d4b",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.visualscripting@b4d700247d4b",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "b4d700247d4b84b3360e1afeb054b0bdb201fbc7",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.9.8",
@@ -414,7 +475,11 @@
     "com.unity.shadergraph@17.1.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.shadergraph@e5d3455aa133",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.shadergraph@e5d3455aa133",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "e5d3455aa13376f767ad6bf5f3faab2073877176",
       "editorCompatibility": "6000.1.0a1",
       "version": "17.1.0",
@@ -424,7 +489,11 @@
     "com.unity.render-pipelines.core@17.1.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.core@90203779d2fe",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.core@90203779d2fe",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "90203779d2fe6fa9d55aca9d46d9e8633cba3dc2",
       "editorCompatibility": "6000.1.0a1",
       "version": "17.1.0",
@@ -434,7 +503,11 @@
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
@@ -444,7 +517,11 @@
     "com.unity.render-pipelines.universal-config@17.0.3": {
       "name": "com.unity.render-pipelines.universal-config",
       "displayName": "Universal Render Pipeline Config",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "8dc1aab4af1d718781689a36ed5231a35ad1a524",
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.3",
@@ -454,7 +531,11 @@
     "com.unity.burst@1.8.23": {
       "name": "com.unity.burst",
       "displayName": "Burst",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.burst@6aff1dd08a0c",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.burst@6aff1dd08a0c",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "6aff1dd08a0c2f92ddb7f56ec033a5cb88967056",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.8.23",
@@ -464,7 +545,11 @@
     "com.unity.mathematics@1.3.2": {
       "name": "com.unity.mathematics",
       "displayName": "Mathematics",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.3.2",
@@ -474,7 +559,11 @@
     "com.unity.collections@2.5.1": {
       "name": "com.unity.collections",
       "displayName": "Collections",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.collections@56bff8827a7e",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.collections@56bff8827a7e",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "56bff8827a7ef6d44fcee4f36e558a74da89c1a0",
       "editorCompatibility": "2022.3.11f1",
       "version": "2.5.1",
@@ -484,7 +573,11 @@
     "com.unity.rendering.light-transport@1.0.1": {
       "name": "com.unity.rendering.light-transport",
       "displayName": "Unity Light Transport Library",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.rendering.light-transport@e647573c7d2a",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.rendering.light-transport@e647573c7d2a",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "e647573c7d2ae78386ecb3f9f962738597f13fcf",
       "editorCompatibility": "2023.3.0b1",
       "version": "1.0.1",
@@ -494,7 +587,11 @@
     "com.unity.searcher@4.9.3": {
       "name": "com.unity.searcher",
       "displayName": "Searcher",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.searcher@1e17ce91558d",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.searcher@1e17ce91558d",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "1e17ce91558d1d9127554adc03d275f39a7466a2",
       "editorCompatibility": "2019.1.0a1",
       "version": "4.9.3",
@@ -504,7 +601,11 @@
     "com.unity.nuget.mono-cecil@1.11.4": {
       "name": "com.unity.nuget.mono-cecil",
       "displayName": "Mono Cecil",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d6f9955a5d5f",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d6f9955a5d5f",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62",
       "editorCompatibility": "2018.4.0a1",
       "version": "1.11.4",
@@ -514,7 +615,11 @@
     "com.unity.test-framework.performance@3.1.0": {
       "name": "com.unity.test-framework.performance",
       "displayName": "Performance testing API",
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.test-framework.performance@92d1d09a72ed",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.test-framework.performance@92d1d09a72ed",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
       "fingerprint": "92d1d09a72ed696fa23fd76c675b29d211664b50",
       "editorCompatibility": "2020.3.0a1",
       "version": "3.1.0",
