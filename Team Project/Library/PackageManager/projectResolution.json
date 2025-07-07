@@ -1,12 +1,21 @@
 {
   "context": {
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
     "projectPath": "C:/Users/Mansa/Unity_Projects/Dev2-FPS/Team Project/Packages",
     "unityVersion": "6000.1.9f1"
   },
   "inputs": [
     "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Packages\\manifest.json",
     "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Packages\\packages-lock.json",
+=======
+    "projectPath": "C:/Users/Mansa/Unity_Projects/Dev2-FPS/Team Project/Team Project/Packages",
+    "unityVersion": "6000.1.9f1"
+  },
+  "inputs": [
+    "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Packages\\manifest.json",
+    "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Packages\\packages-lock.json",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
     "projectPath": "C:/Users/Mansa/Unity_Projects/Dev2-FPS/Team Project/Team Project/Packages",
     "unityVersion": "6000.1.9f1"
@@ -22,7 +31,11 @@
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.2d.sprite@5eb30061d420",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.2d.sprite@5eb30061d420",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.2d.sprite@5eb30061d420",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -36,7 +49,11 @@
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.ai.navigation@eb5635ad590d",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ai.navigation@eb5635ad590d",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ai.navigation@eb5635ad590d",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -50,7 +67,11 @@
       "name": "com.unity.collab-proxy",
       "displayName": "Version Control",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.collab-proxy@c854d1f7d97f",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.collab-proxy@c854d1f7d97f",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.collab-proxy@c854d1f7d97f",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -64,7 +85,11 @@
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.ide.rider@4d374c7eb6db",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ide.rider@4d374c7eb6db",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ide.rider@4d374c7eb6db",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -78,7 +103,11 @@
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -92,7 +121,11 @@
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -106,7 +139,11 @@
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -120,7 +157,11 @@
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -134,7 +175,11 @@
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.test-framework@7056e7f856e9",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.test-framework@7056e7f856e9",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.test-framework@7056e7f856e9",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -148,7 +193,11 @@
       "name": "com.unity.timeline",
       "displayName": "Timeline",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.timeline@fa3a0bab2b90",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.timeline@fa3a0bab2b90",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.timeline@fa3a0bab2b90",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -162,7 +211,11 @@
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.ugui@57cef44123c7",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ugui@57cef44123c7",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ugui@57cef44123c7",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -176,7 +229,11 @@
       "name": "com.unity.visualeffectgraph",
       "displayName": "Visual Effect Graph",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.visualeffectgraph@40f2662747ce",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.visualeffectgraph@40f2662747ce",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.visualeffectgraph@40f2662747ce",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -190,7 +247,11 @@
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.visualscripting@b4d700247d4b",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.visualscripting@b4d700247d4b",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.visualscripting@b4d700247d4b",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -476,7 +537,11 @@
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.shadergraph@e5d3455aa133",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.shadergraph@e5d3455aa133",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.shadergraph@e5d3455aa133",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -490,7 +555,11 @@
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.core@90203779d2fe",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.core@90203779d2fe",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.core@90203779d2fe",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -504,7 +573,11 @@
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -518,7 +591,11 @@
       "name": "com.unity.render-pipelines.universal-config",
       "displayName": "Universal Render Pipeline Config",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -532,7 +609,11 @@
       "name": "com.unity.burst",
       "displayName": "Burst",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.burst@6aff1dd08a0c",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.burst@6aff1dd08a0c",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.burst@6aff1dd08a0c",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -546,7 +627,11 @@
       "name": "com.unity.mathematics",
       "displayName": "Mathematics",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -560,7 +645,11 @@
       "name": "com.unity.collections",
       "displayName": "Collections",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.collections@56bff8827a7e",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.collections@56bff8827a7e",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.collections@56bff8827a7e",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -574,7 +663,11 @@
       "name": "com.unity.rendering.light-transport",
       "displayName": "Unity Light Transport Library",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.rendering.light-transport@e647573c7d2a",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.rendering.light-transport@e647573c7d2a",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.rendering.light-transport@e647573c7d2a",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -588,7 +681,11 @@
       "name": "com.unity.searcher",
       "displayName": "Searcher",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.searcher@1e17ce91558d",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.searcher@1e17ce91558d",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.searcher@1e17ce91558d",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -602,7 +699,11 @@
       "name": "com.unity.nuget.mono-cecil",
       "displayName": "Mono Cecil",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d6f9955a5d5f",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d6f9955a5d5f",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d6f9955a5d5f",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
@@ -616,7 +717,11 @@
       "name": "com.unity.test-framework.performance",
       "displayName": "Performance testing API",
 <<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
+<<<<<<< Updated upstream:Team Project/Library/PackageManager/projectResolution.json
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Library\\PackageCache\\com.unity.test-framework.performance@92d1d09a72ed",
+=======
+      "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.test-framework.performance@92d1d09a72ed",
+>>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
 =======
       "resolvedPath": "C:\\Users\\Mansa\\Unity_Projects\\Dev2-FPS\\Team Project\\Team Project\\Library\\PackageCache\\com.unity.test-framework.performance@92d1d09a72ed",
 >>>>>>> Stashed changes:Team Project/Team Project/Library/PackageManager/projectResolution.json
