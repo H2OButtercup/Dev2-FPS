@@ -56,6 +56,8 @@ public class gameManager : MonoBehaviour
     private void Start()
     {
         SpawnEnemies();
+
+        gameGoalCount = numberOfEnemiesToSpawn;
     }
 
     // Update is called once per frame
@@ -92,15 +94,24 @@ public class gameManager : MonoBehaviour
 
         for (int i = 0; i < numberOfEnemiesToSpawn; i++)
         {
-            availableSpawnPoints = new List<Transform>(enemySpawnPoints);
+            if (availableSpawnPoints.Count == 0)
+            {
+                availableSpawnPoints = new List<Transform>(enemySpawnPoints);
+
+                if (availableSpawnPoints.Count == 0)
+                {
+                    break;
+                }
+            }
+
+
+            int randomIndex = Random.Range(0, availableSpawnPoints.Count);
+            Transform spawnLocation = availableSpawnPoints[randomIndex];
+
+            GameObject spawnedEnemy = Instantiate(enemyPrefab, spawnLocation.position, spawnLocation.rotation);
+
+            availableSpawnPoints.RemoveAt(randomIndex);
         }
-
-        int randomIndex = Random.Range(0, availableSpawnPoints.Count);
-        Transform spawnLocation = availableSpawnPoints[randomIndex];
-
-        GameObject spawnedEnemy = Instantiate(enemyPrefab, spawnLocation.position, spawnLocation.rotation);
-
-        availableSpawnPoints.RemoveAt(randomIndex);
     }
 
     public void statePause()
