@@ -1,10 +1,11 @@
+using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
-public class gamemanager : MonoBehaviour
+public class gameManager : MonoBehaviour
 {
-    public static gamemanager instance;
-
+    public static gameManager instance;
     [SerializeField] GameObject menuActive;
     [SerializeField] GameObject menuPause;
     [SerializeField] GameObject menuWin;
@@ -12,13 +13,24 @@ public class gamemanager : MonoBehaviour
 
     public Image playerHPBar;
     public GameObject playerDamagePanel;
+
     public bool isPaused;
     public GameObject player;
     public playerController playerScript;
 
-    float timescaleOrig;
+    float timeScaleOrig;
 
     int gameGoalCount;
+
+    // Spawn point for the player
+    public Transform playerSpawnPoint;
+    public GameObject playerPrefab;
+
+
+    // Randomized spawn for the enemy
+    public GameObject enemyPrefab;
+    public int numberOfEnemiesToSpawn = 5;
+    public List<Transform> enemySpawnPoints;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -26,8 +38,24 @@ public class gamemanager : MonoBehaviour
         instance = this;
 
         player = GameObject.FindWithTag("Player");
-        playerScript = player.GetComponent<playerController>();
-        timescaleOrig = Time.timeScale;
+        if(player == null)
+        {
+            if(playerPrefab != null && playerSpawnPoint != null)
+            {
+                player = Instantiate(playerPrefab, playerSpawnPoint.position, playerSpawnPoint.rotation);
+                player.tag = "Player";
+            }
+        }
+        if (player != null)
+        {
+            playerScript = player.GetComponent<playerController>();
+            timeScaleOrig = Time.timeScale;
+        }
+    }
+
+    private void Start()
+    {
+        SpawnEnemies();
     }
 
     // Update is called once per frame
@@ -48,6 +76,33 @@ public class gamemanager : MonoBehaviour
         }
     }
 
+    void SpawnEnemies()
+    {
+        if (enemyPrefab == null)
+        {
+            return;
+        }
+
+        if (enemySpawnPoints == null || enemySpawnPoints.Count == 0)
+        {
+            return;
+        }
+
+        List<Transform> availableSpawnPoints = new List<Transform>(enemySpawnPoints);
+
+        for (int i = 0; i < numberOfEnemiesToSpawn; i++)
+        {
+            availableSpawnPoints = new List<Transform>(enemySpawnPoints);
+        }
+
+        int randomIndex = Random.Range(0, availableSpawnPoints.Count);
+        Transform spawnLocation = availableSpawnPoints[randomIndex];
+
+        GameObject spawnedEnemy = Instantiate(enemyPrefab, spawnLocation.position, spawnLocation.rotation);
+
+        availableSpawnPoints.RemoveAt(randomIndex);
+    }
+
     public void statePause()
     {
         isPaused = !isPaused;
@@ -59,7 +114,7 @@ public class gamemanager : MonoBehaviour
     public void stateUnpause()
     {
         isPaused = !isPaused;
-        Time.timeScale = timescaleOrig;
+        Time.timeScale = timeScaleOrig;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         menuActive.SetActive(false);
@@ -72,7 +127,7 @@ public class gamemanager : MonoBehaviour
 
         if (gameGoalCount <= 0)
         {
-            //you win!
+            // you win!
             statePause();
             menuActive = menuWin;
             menuActive.SetActive(true);

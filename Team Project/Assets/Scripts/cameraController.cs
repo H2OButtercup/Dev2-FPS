@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class cameraController : MonoBehaviour
 {
+
     [SerializeField] int sens;
     [SerializeField] int lockVertMin, lockVertMax;
     [SerializeField] bool invertY;

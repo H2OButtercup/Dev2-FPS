@@ -21,22 +21,22 @@ public class playerController : MonoBehaviour, IDamage
     Vector3 playerVel;
 
     int jumpCount;
-    int hpOrig;
+    int HPOrig;
 
     float shootTimer;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        hpOrig = HP;
+        HPOrig = HP;
         updatePlayerUI();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward * shootDist, Color.red);
 
+        Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward * shootDist, Color.red);
         sprint();
 
         movement();
@@ -44,6 +44,7 @@ public class playerController : MonoBehaviour, IDamage
 
     void movement()
     {
+
         shootTimer += Time.deltaTime;
 
         if (controller.isGrounded)
@@ -51,7 +52,6 @@ public class playerController : MonoBehaviour, IDamage
             playerVel = Vector3.zero;
             jumpCount = 0;
         }
-
         moveDir = (Input.GetAxis("Horizontal") * transform.right) + (Input.GetAxis("Vertical") * transform.forward);
         controller.Move(moveDir * speed * Time.deltaTime);
 
@@ -68,7 +68,7 @@ public class playerController : MonoBehaviour, IDamage
 
     void jump()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && jumpCount < jumpMax)
         {
             playerVel.y = jumpVel;
             jumpCount++;
@@ -109,24 +109,25 @@ public class playerController : MonoBehaviour, IDamage
         HP -= amount;
 
         updatePlayerUI();
+
         StartCoroutine(damageFlashScreen());
 
         if (HP <= 0)
         {
-            //you died
-            gamemanager.instance.youLose();
+            // you dead
+            gameManager.instance.youLose();
         }
     }
 
     public void updatePlayerUI()
     {
-        gamemanager.instance.playerHPBar.fillAmount = (float)HP / hpOrig;
+        gameManager.instance.playerHPBar.fillAmount = (float)HP / HPOrig;
     }
 
     IEnumerator damageFlashScreen()
     {
-        gamemanager.instance.playerDamagePanel.SetActive(true);
+        gameManager.instance.playerDamagePanel.SetActive(true);
         yield return new WaitForSeconds(0.1f);
-        gamemanager.instance.playerDamagePanel.SetActive(false);
+        gameManager.instance.playerDamagePanel.SetActive(false);
     }
 }

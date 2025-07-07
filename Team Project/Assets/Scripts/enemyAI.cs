@@ -25,6 +25,7 @@ public class enemyAI : MonoBehaviour, IDamage
     float angleToPlayer;
     float stoppingDistOrig;
 
+
     bool playerInTrigger;
 
     Vector3 playerDir;
@@ -34,7 +35,7 @@ public class enemyAI : MonoBehaviour, IDamage
     void Start()
     {
         colorOrg = model.material.color;
-        gamemanager.instance.updateGameGoal(1);
+        gameManager.instance.updateGameGoal(1);
         startingPos = transform.position;
         stoppingDistOrig = agent.stoppingDistance;
     }
@@ -42,7 +43,8 @@ public class enemyAI : MonoBehaviour, IDamage
     // Update is called once per frame
     void Update()
     {
-        if(agent.remainingDistance < 0.01f)
+
+        if (agent.remainingDistance < 0.01f)
         {
             roamTimer += Time.deltaTime;
         }
@@ -70,17 +72,17 @@ public class enemyAI : MonoBehaviour, IDamage
         roamTimer = 0;
         agent.stoppingDistance = 0;
 
-        Vector3 randPos = Random.insideUnitSphere * roamDist;
-        randPos += startingPos;
+        Vector3 ranPos = Random.insideUnitSphere * roamDist;
+        ranPos += startingPos;
 
         NavMeshHit hit;
-        NavMesh.SamplePosition(randPos, out hit, roamDist, 1);
+        NavMesh.SamplePosition(ranPos, out hit, roamDist, 1);
         agent.SetDestination(hit.position);
     }
 
     bool canSeePlayer()
     {
-        playerDir = gamemanager.instance.player.transform.position - headPos.position;
+        playerDir = gameManager.instance.player.transform.position - headPos.position;
         angleToPlayer = Vector3.Angle(playerDir, transform.forward);
 
         Debug.DrawRay(headPos.position, playerDir);
@@ -90,7 +92,6 @@ public class enemyAI : MonoBehaviour, IDamage
         {
             if (hit.collider.CompareTag("Player") && angleToPlayer <= fov)
             {
-
                 shootTimer += Time.deltaTime;
 
                 if (shootTimer >= shootRate)
@@ -98,16 +99,15 @@ public class enemyAI : MonoBehaviour, IDamage
                     shoot();
                 }
 
-                agent.SetDestination(gamemanager.instance.player.transform.position);
+                agent.SetDestination(gameManager.instance.player.transform.position);
 
                 if (agent.remainingDistance <= agent.stoppingDistance)
                     faceTarget();
 
-                agent.stoppingDistance = stoppingDistOrig;
                 return true;
             }
         }
-        agent.stoppingDistance = 0;
+        agent.stoppingDistance = stoppingDistOrig;
         return false;
     }
 
@@ -133,15 +133,14 @@ public class enemyAI : MonoBehaviour, IDamage
             agent.stoppingDistance = 0;
         }
     }
-
     public void takeDamage(int amount)
     {
         HP -= amount;
-        agent.SetDestination(gamemanager.instance.player.transform.position);
+        agent.SetDestination(gameManager.instance.player.transform.position);
 
         if (HP <= 0)
         {
-            gamemanager.instance.updateGameGoal(-1);
+            gameManager.instance.updateGameGoal(-1);
             Destroy(gameObject);
         }
         else
@@ -160,6 +159,7 @@ public class enemyAI : MonoBehaviour, IDamage
     void shoot()
     {
         shootTimer = 0;
+
         Instantiate(bullet, shootPos.position, transform.rotation);
     }
 }

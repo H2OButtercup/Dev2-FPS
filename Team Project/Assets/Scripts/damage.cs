@@ -3,7 +3,8 @@ using System.Collections;
 
 public class damage : MonoBehaviour
 {
-    enum damagetype { moving, stationary, DOT, homing}
+
+    enum damagetype { moving, stationary, DOT, homing }
     [SerializeField] damagetype type;
     [SerializeField] Rigidbody rb;
 
@@ -33,11 +34,11 @@ public class damage : MonoBehaviour
     {
         if (type == damagetype.homing)
         {
-            rb.linearVelocity = (gamemanager.instance.transform.position - transform.position).normalized * speed * Time.deltaTime;
+            rb.linearVelocity = (gameManager.instance.player.transform.position - transform.position).normalized * speed * Time.deltaTime;
         }
     }
 
-    public void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.isTrigger)
             return;
@@ -55,7 +56,7 @@ public class damage : MonoBehaviour
         }
     }
 
-    public void OnTriggerStay(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.isTrigger)
             return;

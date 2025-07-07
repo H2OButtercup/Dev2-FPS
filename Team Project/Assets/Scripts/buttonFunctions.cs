@@ -5,20 +5,19 @@ public class buttonFunctions : MonoBehaviour
 {
     public void resume()
     {
-        gamemanager.instance.stateUnpause();
+        gameManager.instance.stateUnpause();
     }
 
     public void restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        gamemanager.instance.stateUnpause();
+        gameManager.instance.stateUnpause();
     }
 
-    public void Quit()
+    public void quit()
     {
 #if !UNITY_EDITOR
         Application.Quit();
-
 #else
         UnityEditor.EditorApplication.isPlaying = false;
 
